@@ -87,8 +87,8 @@ const styles = {
     },
     categoryContent: {
         position: 'absolute',
-        top: '20%',
-        left: '49%',
+        top: '18%',
+        left: '45%',
         textAlign: 'center',
         color: '#000',
         padding: '1rem',
