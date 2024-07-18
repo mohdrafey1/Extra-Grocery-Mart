@@ -89,6 +89,7 @@ const Navbar = () => {
                         display: 'flex',
                         justifyContent: 'space-between',
                         alignItems: 'center',
+                        paddingLeft: 1,
                     }}
                 >
                     <Typography
