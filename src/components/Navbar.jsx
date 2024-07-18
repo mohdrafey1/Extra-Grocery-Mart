@@ -172,18 +172,18 @@ const Navbar = () => {
                                 color="black"
                                 aria-label="menu"
                                 onClick={toggleDrawer(true)}
-                                style={{ marginRight: 8 }}
+                                style={{ marginRight: 7 }}
                             >
                                 <MenuIcon />
                             </IconButton>
                         )}
-                        <IconButton style={{ marginRight: 8, color: 'black' }}>
+                        <IconButton style={{ marginRight: 7, color: 'black' }}>
                             <Favorite />
                         </IconButton>
-                        <IconButton style={{ marginRight: 8, color: 'black' }}>
+                        <IconButton style={{ marginRight: 7, color: 'black' }}>
                             <ShoppingCart />
                         </IconButton>
-                        <IconButton style={{ marginRight: 8, color: 'black' }}>
+                        <IconButton style={{ marginRight: 7, color: 'black' }}>
                             <Person />
                         </IconButton>
                         <Select
@@ -203,7 +203,7 @@ const Navbar = () => {
                                         style={{
                                             width: 16,
                                             height: 16,
-                                            marginRight: 8,
+                                            marginRight: 7,
                                         }}
                                     />
                                     {selected}
