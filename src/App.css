@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: transform 0.3s ease-in-out;
+}
+
+.header-visible {
+    transform: translateY(0);
+}
+
+.header-hidden {
+    transform: translateY(-100%);
+}
