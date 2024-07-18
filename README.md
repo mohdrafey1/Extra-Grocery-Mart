@@ -1,8 +1,16 @@
-# React + Vite
+# E-Commerce Frontend Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+This project is an e-commerce website built with React and Material-UI (MUI). It features a responsive navbar, product listings, and a modal for product details. The site allows users to browse products, view details.
 
-Currently, two official plugins are available:
+## Features
+- Responsive navigation bar with country selector and icon buttons for favorites, shopping cart, and user profile.
+- Product modal for detailed product information and adding items to the cart.
+- Mobile-friendly design with a drawer menu for smaller screens.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+- React
+- Material-UI (MUI)
+- JavaScript
+- HTML
+- CSS
