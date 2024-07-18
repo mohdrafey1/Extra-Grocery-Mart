@@ -172,18 +172,18 @@ const Navbar = () => {
                                 color="black"
                                 aria-label="menu"
                                 onClick={toggleDrawer(true)}
-                                style={{ marginRight: 10 }}
+                                style={{ marginRight: 8 }}
                             >
                                 <MenuIcon />
                             </IconButton>
                         )}
-                        <IconButton style={{ marginRight: 10, color: 'black' }}>
+                        <IconButton style={{ marginRight: 8, color: 'black' }}>
                             <Favorite />
                         </IconButton>
-                        <IconButton style={{ marginRight: 10, color: 'black' }}>
+                        <IconButton style={{ marginRight: 8, color: 'black' }}>
                             <ShoppingCart />
                         </IconButton>
-                        <IconButton style={{ marginRight: 10, color: 'black' }}>
+                        <IconButton style={{ marginRight: 8, color: 'black' }}>
                             <Person />
                         </IconButton>
                         <Select
@@ -201,8 +201,8 @@ const Navbar = () => {
                                         src={`https://flagsapi.com/${selected}/flat/64.png`}
                                         alt={`Flag of ${selected}`}
                                         style={{
-                                            width: 20,
-                                            height: 20,
+                                            width: 16,
+                                            height: 16,
                                             marginRight: 8,
                                         }}
                                     />
@@ -222,8 +222,8 @@ const Navbar = () => {
                                             src={`https://flagsapi.com/${code}/flat/64.png`}
                                             alt={`Flag of ${code}`}
                                             style={{
-                                                width: 20,
-                                                height: 20,
+                                                width: 16,
+                                                height: 16,
                                                 marginRight: 8,
                                             }}
                                         />
