@@ -18,7 +18,7 @@ const ProductSection = () => {
     return (
         <div
             style={{
-                padding: '2rem',
+                padding: '1.5rem',
                 backgroundColor: '#fff',
                 marginTop: '15px',
             }}
@@ -94,7 +94,7 @@ const styles = {
         padding: '1rem',
     },
     categoryTitle: {
-        fontSize: '2rem',
+        fontSize: '1.8rem',
         marginBottom: '0.5rem',
     },
     categorySubtitle: {
@@ -102,7 +102,7 @@ const styles = {
         marginBottom: '1rem',
     },
     button: {
-        padding: '0.75rem 2rem',
+        padding: '0.75rem 1.8rem',
         borderRadius: '20px',
         textTransform: 'none',
     },

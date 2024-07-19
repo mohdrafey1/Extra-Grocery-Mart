@@ -103,7 +103,7 @@ const Navbar = () => {
                         <img
                             src={logo}
                             alt="Logo"
-                            style={{ height: 100, width: 100 }}
+                            style={{ height: 100, width: '100%' }}
                         />
                     </Typography>
 
@@ -173,18 +173,18 @@ const Navbar = () => {
                                 color="black"
                                 aria-label="menu"
                                 onClick={toggleDrawer(true)}
-                                style={{ marginRight: 7 }}
+                                style={{ marginRight: 6 }}
                             >
                                 <MenuIcon />
                             </IconButton>
                         )}
-                        <IconButton style={{ marginRight: 7, color: 'black' }}>
+                        <IconButton style={{ marginRight: 6, color: 'black' }}>
                             <Favorite />
                         </IconButton>
-                        <IconButton style={{ marginRight: 7, color: 'black' }}>
+                        <IconButton style={{ marginRight: 6, color: 'black' }}>
                             <ShoppingCart />
                         </IconButton>
-                        <IconButton style={{ marginRight: 7, color: 'black' }}>
+                        <IconButton style={{ marginRight: 6, color: 'black' }}>
                             <Person />
                         </IconButton>
                         <Select
@@ -202,9 +202,9 @@ const Navbar = () => {
                                         src={`https://flagsapi.com/${selected}/flat/64.png`}
                                         alt={`Flag of ${selected}`}
                                         style={{
-                                            width: 16,
+                                            width: 12,
                                             height: 16,
-                                            marginRight: 7,
+                                            marginRight: 0,
                                         }}
                                     />
                                     {selected}
@@ -223,9 +223,9 @@ const Navbar = () => {
                                             src={`https://flagsapi.com/${code}/flat/64.png`}
                                             alt={`Flag of ${code}`}
                                             style={{
-                                                width: 16,
+                                                width: 12,
                                                 height: 16,
-                                                marginRight: 8,
+                                                marginRight: 0,
                                             }}
                                         />
                                         {name}
