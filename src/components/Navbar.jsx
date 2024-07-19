@@ -202,9 +202,9 @@ const Navbar = () => {
                                         src={`https://flagsapi.com/${selected}/flat/64.png`}
                                         alt={`Flag of ${selected}`}
                                         style={{
-                                            width: 12,
-                                            height: 16,
-                                            marginRight: 0,
+                                            width: 20,
+                                            height: 20,
+                                            marginRight: 4,
                                         }}
                                     />
                                     {selected}
@@ -223,9 +223,9 @@ const Navbar = () => {
                                             src={`https://flagsapi.com/${code}/flat/64.png`}
                                             alt={`Flag of ${code}`}
                                             style={{
-                                                width: 12,
-                                                height: 16,
-                                                marginRight: 0,
+                                                width: 20,
+                                                height: 20,
+                                                marginRight: 4,
                                             }}
                                         />
                                         {name}
